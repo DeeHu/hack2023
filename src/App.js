@@ -14,13 +14,10 @@ function App() {
 
   const handleChange = (e) => {
     setSearch(e.target.value);
-    // console.log(listings);
     let array = []
     for (let i in db.listings) {
       for (let j in db.listings[i].tags) {
         if (db.listings[i].tags[j].toLowerCase().includes(e.target.value.toLowerCase())) {
-          console.log(db.listings[i].tags[j]);
-          console.log(db.listings[i].name);
           array.push(db.listings[i])
           break
         }
@@ -42,6 +39,7 @@ function App() {
           label="Name"
           value={search}
           onChange={handleChange}
+          sx={{width: "100%", margin: 1}}
         />
           <Listings list={listings}/>
         </Grid>

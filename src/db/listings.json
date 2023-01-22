@@ -20,6 +20,13 @@
             "price": 0,
             "tags": ["ENG1", "ENG2", "ENG3", "ENG12", "ENG111"],
             "description":"I would love to help you in your classes! Just a coffee is fine!"
+        },
+        {
+            "location": "UBC Botanical Garden",
+            "name": "Test Name 4",
+            "price": 0,
+            "tags": ["ENG1", "ENG2", "ENG3", "CS110", "CS121"],
+            "description": "Hey ik eng and CS"
         }
     ]
 }
