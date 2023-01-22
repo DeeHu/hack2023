@@ -2,17 +2,24 @@
     "listings" : [
         {
             "location": "UBC Botanical Garden",
-            "Name": "Test Name",
+            "name": "Test Name",
             "price": 20,
-            "skills": ["CS310", "CS121", "CS210", "CS213", "CS221"],
+            "tags": ["CS310", "CS121", "CS210", "CS213", "CS221"],
             "description": "Hey, I am Test Name Please Change, I am currently a 4th year CS student here. I would love to help you out in my spare time!"
         },
         {
             "location": "Woodward Library",
-            "Name": "Test Name 2",
+            "name": "Test Name 2",
             "price": 0,
-            "skills": ["CS310", "CS121", "CS210", "CS213", "CS221"],
+            "tags": ["CS310", "CS120", "CS210", "CS213", "CS221"],
             "description": "I would love to help you in your classes! Just a coffee is fine!"
+        },
+        {
+            "location": "Coffee Shop",
+            "name": "Test Name 3",
+            "price": 0,
+            "tags": ["ENG1", "ENG2", "ENG3", "ENG12", "ENG111"],
+            "description":"I would love to help you in your classes! Just a coffee is fine!"
         }
     ]
 }
