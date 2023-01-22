@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "name": "test",
+            "email": "test",
+            "password": "test",
+            "skills provide": ["test1", "test2", "test3"], 
+            "skills need": ["test1", "test2", "test3"],
+            "lat": 0,
+            "lng": 0
+        },
+        {
+            "name": ""
+        }
+    ]
+}
